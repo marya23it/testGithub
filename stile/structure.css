@@ -1,0 +1,52 @@
+/* ELEMENTI DELLA STRUTTURA DEL SITO */
+html, body {
+	margin: 0 auto;
+	padding: 0;	
+	text-align: center;
+	width: auto;
+}
+
+h1,h2,h3,h4,h5,p {
+	margin: 0;
+	padding: 0;
+}
+/* STRUTTURA LAYOUT */
+div#container {
+	margin: 20px auto;
+	padding: 0;
+	background-color: #f0f0ff;
+	min-width: 300px;
+	max-width: 900px;	
+	text-align: left;
+	border: 1px solid black;
+	border-radius:10px;
+}
+
+div#header {
+	margin: 0;
+	padding: 20px;
+	background-color: transparent;
+}
+
+div#nav {
+	margin: 0;
+	padding: 0;
+	background-color: #115;
+	text-align: center;
+}
+
+div#content {
+	margin: 0;
+	padding: 10px;
+	background-color: #f0f0ff;
+	min-height: 100%;
+}
+
+div#footer {
+	margin: 0;
+	padding: 10px;
+	background-color: #ccd;
+	text-align: center;
+	border-radius: 0 0 10px 10px;
+}
+/* FINE STRUTTURA LAYOUT */
